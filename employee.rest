@@ -1,3 +1,14 @@
 POST http://127.0.0.1:3000/create/employee
 Content-Type: "application/json"
 
+{
+    "Nom": "mohamed",
+    "Prenom":"houtami",
+    "CIN":"jd5278",
+    "Email":"houtami@ofppt.ma",
+    "Tel": "0789564123",
+    "Date":"01/05/1984",
+    "Type":"formateur",
+    "Salaire":"12000dh",
+    "Modules":[4,6,3,1,2]
+}
